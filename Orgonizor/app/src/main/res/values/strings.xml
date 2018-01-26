@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Orgonizor</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="placeholder">Placeholder Options</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="passwordconfirm">Confirm Password</string>
+    <string name="name">First Name</string>
+    <string name="is_admin">Is Admin</string>
+    <string name="admin">Admin</string>
+    <string name="switchuser">Switch User</string>
+    <string name="registernew">Register User</string>
+    <string name="create_task">Create Task</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="status">Status</string>
+    <string name="assignee">Assignee</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="item">Item</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="creator">Creator</string>
+    <string name="assigned_to">Assigned to</string>
+    <string name="due">Due</string>
+    <string name="tools">Tools</string>
+    <string name="reward">Reward</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="groceries">Groceries :</string>
+    <string name="materials">Materials :</string>
+    <string name="fridge">Fridge :</string>
+    <string name="cupboard">Cupboard :</string>
+    <string name="broom_closet">Broom Closet :</string>
+    <string name="new_task">New Task</string>
+    <string name="my_tasks">Only show my tasks</string>
+    <string name="logout">Logout</string>
+    <string name="confirm">Confirm Allocation</string>
+    <string name="duration">Duration</string>
+    <string name="accept">Accept</string>
+    <string name="taskcomplete">Task Completed, %1$d points received!</string>
+    <string name="filterbyuser">User : </string>
+    <string name="viewtask">Task Details</string>
+    <string name="close">Close</string>
+    <string name="confirm_description">Task "this.task.getTitle()" will be assigned to you.</string> //TODO //I dont know how to how to add the task name
+    <string name="tasknotremovednoperm">No permission to edit that task!</string>
+    <string name="filter">Filter</string>
+    <string name="filter_by">Filter By :</string>
+    <string name="showcomplete">Show Completed</string>
+    <string name="points">Reward Points:</string>
+    <string-array name="priority">
+        <item>URGENT</item>
+        <item>IMPORTANT</item>
+        <item>NORMAL</item>
+        <item>NOT_URGENT</item>
+    </string-array>
+    <string-array name="filters">
+        <item>No filter</item>
+        <item>Date</item>
+        <item>Priority</item>
+        <item>Status</item>
+    </string-array>
+</resources>

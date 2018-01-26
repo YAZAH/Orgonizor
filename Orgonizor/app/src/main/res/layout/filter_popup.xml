@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/filterbyuser"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/selectUser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout1"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/filter_by"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/selectFilter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout2"
+            android:layout_centerHorizontal="true">
+
+            <CheckBox
+                android:id="@+id/showCompleted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/showcomplete" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/FilterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout3"
+            android:layout_centerHorizontal="true"
+            android:text="@string/filter"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="194dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

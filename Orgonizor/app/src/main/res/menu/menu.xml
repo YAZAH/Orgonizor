@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:icon="@drawable/placeholder"
+            android:title="@string/logout" />
+
+        <item
+            android:id="@+id/switche"
+            android:checked="false"
+            android:icon="@drawable/placeholder"
+            android:title="@string/switchuser" />
+
+        <item
+            android:id="@+id/registernew"
+            android:checked="false"
+            android:icon="@drawable/placeholder"
+            android:title="@string/registernew" />
+
+
+    </group>
+</menu>
